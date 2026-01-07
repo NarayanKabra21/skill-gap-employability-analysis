@@ -25,7 +25,7 @@ This project aims to analyze:
 ## 📂 Dataset
 The dataset contains student-level information including:
 - CGPA
-- Codin
+- Coding 
 
 ---
 
