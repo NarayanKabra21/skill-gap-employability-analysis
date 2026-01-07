@@ -1,18 +1,28 @@
-# Skill Gap and Employability Analysis
+    # Skill Gap and Employability Analysis
 
-This project is my first data science project.
-It focuses on understanding how academic performance, technical skills,
-and practical exposure affect the employability of engineering students.
+## 📌 Project Overview
+This project is my first data science project. It focuses on understanding how academic
+performance, technical skills, and soft skills influence the employability of engineering
+students.
 
-The goal of this project is to use exploratory data analysis (EDA)
-to identify skill gaps that influence placement outcomes.
+The project uses exploratory data analysis (EDA) to identify skill gaps that impact
+placement outcomes and highlights the importance of skill development beyond academics.
 
-## Tools Used
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
+---
 
-## Project Status
-Work in progress
+## 🎯 Problem Statement
+Many students believe that a high CGPA alone guarantees placement. However, employability
+depends on multiple factors such as coding skills, communication skills, and practical
+exposure.
+
+This project aims to analyze:
+- Whether CGPA alone determines placement
+- The impact of coding skills on employability
+- The role of communication skills in placement outcomes
+
+---
+
+## 📂 Dataset
+The dataset contains student-level information including:
+- CGPA
+- Codin
