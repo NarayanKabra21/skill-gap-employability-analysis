@@ -1,46 +1,80 @@
-    # Skill Gap and Employability Analysis
+# Skill Gap and Employability Analysis
 
 ## 📌 Project Overview
-This project is my first data science project. It focuses on understanding how academic
-performance, technical skills, and soft skills influence the employability of engineering
-students.
+This project presents a data-driven analysis of factors influencing the employability of engineering students. Using exploratory data analysis (EDA), the project examines how academic performance, technical skills, and communication skills collectively impact placement outcomes.
 
-The project uses exploratory data analysis (EDA) to identify skill gaps that impact
-placement outcomes and highlights the importance of skill development beyond academics.
+The objective is to identify key skill gaps and provide insights into which attributes contribute most significantly to employability beyond academic scores alone.
 
 ---
 
 ## 🎯 Problem Statement
-Many students believe that a high CGPA alone guarantees placement. However, employability
-depends on multiple factors such as coding skills, communication skills, and practical
-exposure.
+Academic performance is often considered the primary determinant of student placements. However, employers increasingly evaluate candidates based on a combination of technical proficiency, soft skills, and practical exposure.
 
 This project aims to analyze:
-- Whether CGPA alone determines placement
+- The relationship between academic performance (CGPA) and placement outcomes
 - The impact of coding skills on employability
-- The role of communication skills in placement outcomes
+- The role of communication skills in securing placements
 
 ---
 
-## 📂 Dataset
-The dataset contains student-level information including:
-- CGPA
-- Coding 
+## 📂 Dataset Description
+The dataset contains structured information related to engineering students, including:
+
+- Academic performance (CGPA)
+- Technical skill level (coding proficiency)
+- Communication skill level
+- Placement status
+- Salary category (where applicable)
+
+**Dataset file:**  
+`data/student_employability_data.csv`
+
+---
+
+## 🛠️ Tools & Technologies
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Jupyter Notebook
+- Git & GitHub
+
+---
+
+## 📊 Exploratory Data Analysis
+The following analyses were conducted:
+
+- Dataset structure inspection and summary statistics
+- Distribution analysis of placement outcomes
+- CGPA vs Placement comparison
+- Coding skill vs Placement analysis
+- Communication skill vs Placement analysis
+
+Visualizations were used extensively to identify patterns and relationships within the data.
 
 ---
 
 ## 💡 Key Insights
 
-1. **CGPA alone does not guarantee placement**  
-   The analysis shows that students with high CGPA are not always placed. While academic performance is important, it is not sufficient on its own to ensure employability.
+1. **Academic performance alone does not guarantee placement**  
+   While CGPA plays a role in employability, there is significant overlap between placed and non-placed students, indicating that academics alone are not sufficient.
 
-2. **Technical (coding) skills significantly improve placement chances**  
-   Students with stronger coding skills have a noticeably higher placement rate, even when their CGPA is average. This highlights the importance of practical technical skills in hiring decisions.
+2. **Coding skills significantly improve employability**  
+   Students with higher coding proficiency demonstrate better placement outcomes, even when academic scores are moderate, highlighting the importance of technical skills.
 
-3. **Communication skills play a critical role in employability**  
-   The results indicate that students with better communication skills are more likely to be placed, especially when combined with technical knowledge. Employers value candidates who can effectively communicate ideas and work in teams.
+3. **Communication skills enhance placement outcomes**  
+   Strong communication skills positively influence employability, emphasizing the value of soft skills alongside technical knowledge.
 
 ---
 
 ## 🎯 Conclusion
-This project demonstrates that employability is influenced by a combination of academic performance, technical skills, and soft skills. A balanced skill set is more effective for securing placements than relying on academics alone.
+The analysis demonstrates that employability is influenced by a combination of academic performance, technical skills, and communication skills. Candidates with balanced skill sets are better positioned to secure placements compared to those relying solely on academic achievements.
+
+These findings highlight the importance of holistic skill development for improving employment outcomes.
+
+---
+
+## ▶️ How to Run the Project
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/NarayanKabra21/skill-gap-employability-analysis.git
